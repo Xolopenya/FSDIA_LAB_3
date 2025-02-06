@@ -10,11 +10,11 @@ int main() {
     std::string mergeOutputFile = "merge_sorted.txt";
 
     int n;
-    std::cout << "Enter the number of lines to process (10 <= n <= 1000): ";
+    std::cout << "Enter the number of lines to process (10 <= n <= 1000000): ";
     std::cin >> n;
 
-    if (n < 10 || n > 1000) {
-        std::cerr << "Invalid input. n should be between 10 and 1000.\n";
+    if (n < 10 || n > 1000000) {
+        std::cerr << "Invalid input. n should be between 10 and 1000000.\n";
         return 1;
     }
 
